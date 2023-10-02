@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.logo h3 {
+  color: #8a2be2;
+  width: 40%;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 8px;
+  position: sticky;
+}
+.profile img {
+  max-width: 0.8cm;
+  border-radius: 0.7cm;
+}
+
+.divider {
+  height: 0.8px;
+  background-color: grey;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.profile {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  max-width: 1000px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+#l1:hover{
+  text-decoration: underline;
+  font-weight: 800;
+  transition: all.5s;
+
+}
+#l2:hover{
+  text-decoration: underline;
+  font-weight: 800;
+  transition: all.5s;
+
+}
+#l3:hover{
+  text-decoration: underline;
+  font-weight: 800;
+  transition: all.5s;
+
+}
+#l4:hover{
+  text-decoration: underline;
+  font-weight: 800;
+  transition: all.5s;
+
+}
+#l5:hover{
+  text-decoration: underline;
+  font-weight: 800;
+  transition: all.5s;
+
+}
+
+
+a:link {
+  color: black;
+}
+/* a:visited {
+  color: brown;
+} */
+
+.main {
+  margin: 50px 0px 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+   padding: 40px;
+  max-height: 100%;
+  
+}
+
+h1 {
+  color: blueviolet;
+}
+
+.text {
+  max-width: 40%;
+}
+span h1 {
+  margin-bottom: 20px;
+}
+
+
+button {
+  margin-top: 30px;
+  padding: 10px 25px 10px 20px;
+  border-radius: 18px;
+  margin-right: 10px;
+  background-color: blueviolet;
+  color: white;
+  text-transform: capitalize;
+  border-color: blueviolet;
+}
+.base {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  margin-top: 50px;
+  width: 100%;
+}
+.base h2 {
+  color: blueviolet;
+}
+
+.item1 {
+  padding: 30px 30px;
+  border: 0.5px solid;
+  border-right: 0px;
+  width: 43.33%;
+  border-color: gainsboro;
+}
+.item2 {
+  padding: 30px 30px;
+  border: 0.5px solid;
+  width: 43.33%;
+  border-color: gainsboro;
+}
+
+.item3 {
+  padding: 30px 30px;
+  border: 0.5px solid;
+  border-left: 0px;
+  width: 43.33%;
+  border-color: gainsboro;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+
+.content-header {
+  color: #8a2be2;
+  display: block;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.content i {
+  font-size: 18px;
+  color: gray;
+}
+
+.special-icon {
+  font-size: 20px;
+}
+
+.style-me {
+  display: inline-block;
+  background-color: tomato;
+  margin-top: 30px;
+  padding: 12px 8px;
+  border-radius: 20px;
+}
+
+.style-me:hover {
+  background-color: rebeccapurple;
+  transition: all;
+  transition-duration: 1s;
+  cursor: pointer;
+  color: white;
+}
+#me {
+  background-color: transparent;
+  border: 2px solid tomato;
+  margin-left: 5px;
+}
+#me:hover{
+  color:blueviolet;
+}
+/* a, span = inline by default */
+/* margins only work with block elements */
+
+/* @media screen  and ( max-width:300px;){
+  
+} */
+/* #pos4{
+  position: absolute;
+  right: 40px;
+}
+#pos3{
+  position: absolute;
+}
+#pos2{
+  position: absolute;
+}
+#pos1{
+  position: absolute;
+} */
